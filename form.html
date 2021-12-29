@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>form.html</title>
 </head>
 <body>
-
+    <form action="join.jsp">
+        이름 : <input type="text"><br>
+        전화번호 : <input type="password"><br>
+        성별 : 남 <input type="radio" name="info">&nbsp 여: <input type="radio" name="info"><br>
+        취미 : <input type="checkbox" name="hooby1"> 노래
+                <input type="checkbox" name="hooby2"> 게임
+                <input type="checkbox" name="hooby3"> 독서
+                <input type="checkbox" name="hooby4"> 영화감상
+                <input type="checkbox" name="hooby5"> 운동<br>
+        E-mail : <input type="text"> @
+                 <select>
+                     <option>선택</option>
+                     <option>조희근이</option>
+                     <option>말대꾸</option>
+                     <option>?</option>
+                     <option>ㅋ</option>
+                 </select><br>
+        자기소개 : <br>
+        <textarea rows="6" cols="50">50자이상 입력</textarea><br>
+        사진 첨부 : <input type="file"><br><br>
+        <button type="submit">응모</button>
+        <button type="reset">초기화</button>
+    </form>
 </body>
 </html>
