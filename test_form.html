@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <title>teste_form.html</title>
     <style>
-        [name="Jun"], th, tr, td {
+        table, th, tr, td {
             border:solid 2px black;
             border-collapse: collapse;
-            text-align:center;
             }
     </style>
 </head>
 <body>
-        <table border black="1">
+        <table border black="1"
+                width="700px">
         <tr>
             <td>안녕하세요 권동준 홈페이지입니다.</td>
         </tr>
@@ -22,73 +22,89 @@
         </tr>
     </table><br>
 
-    <table name="Jun" border black="1"
-           width="500px">
+    <table border black="1"
+           width="700px">
         <tr>
             <th name="pink" width="100px">사용자 ID</th>
-            <td colspan="3">1</td>
+            <td colspan="3"><input type="text">
+                <button type="button">ID 중복확인</button> </td>
 <!--            <td>1</td>-->
 <!--            <td>1</td>-->
         </tr>
         <tr>
             <th name="pink">비밀번호</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td><input type="text"></td>
+            <td>비밀번호 확인</td>
+            <td><input type="text"></td>
         </tr>
         <tr>
             <th name="pink">사용자이름</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td colspan="3"><input type="text"></td>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
         <tr>
             <th name="pink">주민등록번호</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td colspan="3"><input type="text"> - <input type="password"></td>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
         <tr>
              <th name="pink">생년월일</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td><input type="text"></td>
+            <td>성별</td>
+            <td><input type="radio" name="info"> 남자
+                <input type="radio" name="info"> 여자</td>
         </tr>
         <tr>
              <th name="pink">우편번호</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td colspan="3"><input type="text">&nbsp- <input type="text">
+                <button type="button">우편번호 검색</button> </td>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
         <tr>
              <th name="pink">주소</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td colspan="3"><input type="text"></td>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
         <tr>
              <th name="pink">나머지주소</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td colspan="3"><input type="text"></td>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
         <tr>
              <th name="pink">E-mail</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td colspan="3"><input type="text"> @
+                <select>
+                    <option>선택하세요</option>
+                    <option>naver.com</option>
+                    <option>daum.net</option>
+                    <option>gmail.com</option>
+                    <option>직접입력</option>
+                </select></td>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
         <tr>
              <th name="pink">직업</th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td colspan="3"><select>
+                <option>컴퓨터/정보통신</option>
+                <option>군인</option>
+                <option>학생</option>
+                <option>직접입력</option>
+            </select></td>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
         <tr>
-             <th name="pink"></th>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+             <th colspan="4"><button type="submit">등 록</button>
+                <button type="button">취 소</button> </th>
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
+<!--            <td>1</td>-->
         </tr>
 
     </table>
